@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/mahsun/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/mahsun/Desktop/IPLEIRIA/ESP32/uart/uart_async_rxtxtasks/build/bootloader",
+    "config_file":        "/home/mahsun/Desktop/IPLEIRIA/ESP32/uart/uart_async_rxtxtasks/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dev-62-g5f0c8f57c6-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/mahsun/esp/esp-idf/components/efuse/Kconfig;/home/mahsun/esp/esp-idf/components/esp32/Kconfig;/home/mahsun/esp/esp-idf/components/esp_common/Kconfig;/home/mahsun/esp/esp-idf/components/esp_hw_support/Kconfig;/home/mahsun/esp/esp-idf/components/esp_system/Kconfig;/home/mahsun/esp/esp-idf/components/freertos/Kconfig;/home/mahsun/esp/esp-idf/components/hal/Kconfig;/home/mahsun/esp/esp-idf/components/log/Kconfig;/home/mahsun/esp/esp-idf/components/newlib/Kconfig;/home/mahsun/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/mahsun/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/mahsun/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/mahsun/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/mahsun/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/mahsun/esp/esp-idf/components/bootloader", "/home/mahsun/esp/esp-idf/components/bootloader_support", "/home/mahsun/esp/esp-idf/components/efuse", "/home/mahsun/esp/esp-idf/components/esp32", "/home/mahsun/esp/esp-idf/components/esp_common", "/home/mahsun/esp/esp-idf/components/esp_hw_support", "/home/mahsun/esp/esp-idf/components/esp_rom", "/home/mahsun/esp/esp-idf/components/esp_system", "/home/mahsun/esp/esp-idf/components/esptool_py", "/home/mahsun/esp/esp-idf/components/freertos", "/home/mahsun/esp/esp-idf/components/hal", "/home/mahsun/esp/esp-idf/components/log", "/home/mahsun/esp/esp-idf/components/bootloader/subproject/main", "/home/mahsun/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/mahsun/esp/esp-idf/components/newlib", "/home/mahsun/esp/esp-idf/components/partition_table", "/home/mahsun/esp/esp-idf/components/soc", "/home/mahsun/esp/esp-idf/components/spi_flash", "/home/mahsun/esp/esp-idf/components/xtensa", "" ]
+}
